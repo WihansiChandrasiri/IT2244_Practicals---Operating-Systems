@@ -1,1 +1,1 @@
-# IT2244_Practicals---Operating-Systems
+# IT2244_Practicals-Operating-Systems
