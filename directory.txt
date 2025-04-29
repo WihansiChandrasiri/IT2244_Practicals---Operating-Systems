@@ -1,0 +1,57 @@
+:: Create Criteria_1 folder
+mkdir Criteria_1
+
+:: Go into Criteria_1
+cd Criteria_1
+
+:: Create Standard folders inside Criteria_1
+mkdir Standard_1
+mkdir Standard_2
+mkdir Standard_3
+mkdir Standard_4
+mkdir Standard_5
+
+:: Go back to the main folder
+cd..
+
+:: Create Criteria_2 folder
+mkdir Criteria_2
+
+:: Go into Criteria_2
+cd Criteria_2
+
+:: Create Standard folders inside Criteria_2
+mkdir Standard_1
+mkdir Standard_2
+mkdir Standard_3
+
+:: Go back to the main folder
+cd..
+
+:: Create Criteria_3 folder
+mkdir Criteria_3
+
+:: Go into Criteria_3
+cd Criteria_3
+
+:: Create Standard folders inside Criteria_3
+mkdir Standard_1
+mkdir Standard_2
+mkdir Standard_3
+mkdir Standard_4
+
+:: Go back to the main folder
+cd..
+
+:: Create Criteria_4 folder
+mkdir Criteria_4
+
+:: Go into Criteria_4
+cd Criteria_4
+
+:: Create Standard folders inside Criteria_4
+mkdir Standard_1
+mkdir Standard_2
+
+:: Go back to the main folder
+cd..
