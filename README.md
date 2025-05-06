@@ -52,3 +52,42 @@ Q4).Print two patterns using nested loop column =7, row =7
 
 ![image](https://github.com/user-attachments/assets/b5bc64da-ac83-4634-8bd7-dcb1d2d08462)
 
+
+Print this patterns.  
+
+Q1\  
+  
+1  
+22  
+333  
+4444  
+55555  
+666666  
+
+![image](https://github.com/user-attachments/assets/0b533983-7551-423d-b855-1595011fb555)
+
+![image](https://github.com/user-attachments/assets/16e5a1da-448b-44a2-9607-2dcab4357b20)
+
+
+
+Q2\  
+  
+1  
+12  
+123  
+1234  
+12345  
+123456  
+  ![image](https://github.com/user-attachments/assets/3d33ff56-35a3-40b0-b020-c3bb541f610e)
+
+
+Q3\  
+          *  
+	 * *  
+	* * *  
+       * * * *  
+      * * * * * 
+
+![image](https://github.com/user-attachments/assets/1ab60659-e3f8-4bfa-9a2e-d1893d81a0fa)
+
+
