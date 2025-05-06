@@ -9,6 +9,9 @@ Q)Get the student name and marks for the 3 subjects from user then calculate tot
 
 ![image](https://github.com/user-attachments/assets/2d3f5c2d-55f2-4c1a-8e1a-ebce2b35c42a)
 
+Inside the .sh file
+![image](https://github.com/user-attachments/assets/93ceba3d-d8ad-42dc-9f5b-dd7dd82ab095)
+
 
 Q)Create calculator with arithmatic operators
 
