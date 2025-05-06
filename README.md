@@ -56,7 +56,7 @@ Inside the .sh file
 ![image](https://github.com/user-attachments/assets/08a8ced3-4adf-4178-9c22-844a8b92570f)
 
 
-Q)Create simple calculator using "expr" command same as the calculotor above
+Q)Create simple calculator using "expr" command same as the calculator above
 
 Inside the .sh file
 
