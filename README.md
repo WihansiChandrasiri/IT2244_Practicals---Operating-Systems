@@ -46,25 +46,9 @@ Q3).Print the integer from  1 to 10 using while loop.
 
 
 
-Q4).Print below two patterns using nested loop column =7, row =7
+Q4).Print two patterns using nested loop column =7, row =7
 
-  *
-	* *
-	* * *
-	* * * *
-	* * * * *
-	* * * * * *
-	* * * * * * *
-
-
-
-  * * * * * * *
-  * * * * * *
-  * * * * *
-  * * * *
-  * * *
-  * *
-	*
+  
 
 ![image](https://github.com/user-attachments/assets/6a9d1baf-a1e8-4792-b438-ff76c195a44a)
 
