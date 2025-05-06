@@ -1,7 +1,6 @@
 # Day-07
 
-Q1).write a code for small astrology based on your life path number for that get date of birth
-from user then calculate life path number.(use switch cate)
+Q1).write a code for small astrology based on your life path number for that get date of birth from user then calculate life path number.(use switch case)  
 Example:-
 	date: 23
 
