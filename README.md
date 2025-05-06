@@ -1,7 +1,9 @@
 Day 6
 
 Q1)Get the calender and date
+
 ![image](https://github.com/user-attachments/assets/9d365b68-b547-4a3c-8b66-5a08e9a75897)
+
 
 
 ![image](https://github.com/user-attachments/assets/2d3f5c2d-55f2-4c1a-8e1a-ebce2b35c42a)
