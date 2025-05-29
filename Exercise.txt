@@ -49,6 +49,8 @@ Example:
 summation: 15
 multiplication: 120
 
+
+------------------------
 syntax for FOR loop:
 ------------------------
     for variable in list
@@ -70,6 +72,9 @@ syntax for while loop:
 
 ------------------------
 
+
+code:
+
 sum=0  
 product=1  
 for x in 1 2 3 4 5  
@@ -81,7 +86,11 @@ echo "Summation: " $sum
 echo "multiplication: " $product  
 
 
+
 3)print the integers from 1 to 10  
+
+code:
+
 count=1  
 while [ $count -le 10 ]  
         do  
@@ -96,10 +105,10 @@ while [ $count -le 10 ]
 4)  
 print the pattern using nested loop  
 cols=7, rows=7;  
-  
-syntax for nested for loop  
 
-------------------------
+--------------------------
+syntax for nested for loop  
+--------------------------
 for((variable:0; variable<=input; variable++  
     do  
     for((variable:0; variable<=input; variable++   
@@ -108,7 +117,7 @@ for((variable:0; variable<=input; variable++
      done  
     done  
 
-------------------------
+--------------------------
   
   
 i)  *  
@@ -118,6 +127,7 @@ i)  *
     *****  
     ******  
     *******  
+
 
 code:
   
@@ -145,6 +155,9 @@ ii) *******
     **
     *
 
+
+code: 
+
     for ((i=7; i>=1; i--))
     do
     for ((j=1; j<=i; j++))
@@ -160,6 +173,9 @@ ii) 1
     4444
     55555
     666666
+
+
+code: 
 
    for((i=1; i<=6; i++))
     do
@@ -177,7 +193,10 @@ iii) 1
      12345
      123456
 
-      for((i=1; i<=6; i++))
+
+code:
+
+    for((i=1; i<=6; i++))
     do
     for((j=1; j<=i; j++))
      do
@@ -194,6 +213,9 @@ iv)
   * * *
  * * * *
 * * * * * 
+
+
+code: 
 
 for ((i=1; i<=$rows; i++))
 do
