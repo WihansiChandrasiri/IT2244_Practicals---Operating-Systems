@@ -1,4 +1,4 @@
-# Day-09
+# Day-12
 
 1)print multiplication table using for loop.
 
