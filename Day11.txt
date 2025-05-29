@@ -1,0 +1,93 @@
+# Day 11 Practical
+
+
+1)
+cd %USERPROFILE%\desktop
+mkdir CSC2244
+mkdir Marks
+mkdir Exam
+
+cd CSC2244
+mkdir practical
+cd practical
+echo. >practical.txt
+echo. >practical.docx
+echo. >practical.pptx
+cd..
+
+
+mkdir theory
+cd theory
+echo. >theory.txt
+echo. >theory.docx
+echo. >theory.pptx
+cd..
+
+mkdir "exam papers"
+cd "exam papers"
+echo. >exampapers.txt
+echo. >exampapers.docx
+echo. >exampapers.pptx
+
+cd %USERPROFILE%\desktop
+echo. > Icae_Marks.xlsx
+echo. > Final_Exam_Marks.xlsx
+
+copy "%USERPROFILE%\Desktop\Icae_Marks.xlsx" "%USERPROFILE%\Desktop\Marks"
+copy "%USERPROFILE%\Desktop\Final_Exam_Marks.xlsx" "%USERPROFILE%\Desktop\Marks"
+
+xcopy "%USERPROFILE%\Desktop\Marks" "%USERPROFILE%\Desktop\Exam\"
+/E /I
+
+attrib +h "%USERPROFILE%\Desktop\Exam"
+
+________________________________________________________________________________________________________________________
+
+2)
+
+Filter the rows where the GPA greater than 3.5 
+command:
+awk -F, 'NR==1 || $4 > 3.5' data.csv
+Output:
+[2021ict37@fedora ~]$ awk -F, 'NR==1 || $4 > 3.5' data.csv
+Name,Age,Department,GPA
+Priya,21,Environmentscience,3.7
+Carol,23,Physicalscience,3.99
+David,21,IT,3.98
+Riya,22,Physicalscience,3.6
+Rahman,21,Environmentscience,3.7
+Anna,23,Physicalscience,3.78
+Riyas,21,IT,3.76
+
+
+
+Calculate the average GPA of all Students.
+command:
+awk -F, 'NR>1 {sum+=$4; count++} END {if (count > 0) print "Average GPA:", sum/count}' data.csv
+Output:
+
+
+_______________________________________________________________________________________________________________________________
+
+3.
+Read two Strings from user String 1 and String 2
+Count the characters of each String and print the lengthy String as shown in the Expected output
+
+command:
+echo "Enter String_1"
+read string1
+echo "Enter String_2"
+read string2
+
+strlength1=${#string1};
+strlength2=${#string2};
+
+if [ $strlength1 -gt $strlength2 ]; then
+echo "$string1 is larger than $string2"
+elif [ $strlength1 -eq $strlength2 ]; then
+echo "$string1 and $string2 are in equal length"
+else
+echo "$string2 is larger than $string1"
+fi
+
+
