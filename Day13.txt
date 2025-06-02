@@ -49,7 +49,8 @@ Filter the rows where the GPA greater than 3.5
 command:
 awk -F, 'NR==1 || $4 > 3.5' data.csv
 Output:
-[2021ict37@fedora ~]$ awk -F, 'NR==1 || $4 > 3.5' data.csv
+
+awk -F, 'NR==1 || $4 > 3.5' data.csv
 Name,Age,Department,GPA
 Priya,21,Environmentscience,3.7
 Carol,23,Physicalscience,3.99
